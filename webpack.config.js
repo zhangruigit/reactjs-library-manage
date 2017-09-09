@@ -1,8 +1,8 @@
-var path = require('path')
-var webpack = require('webpack')
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var OpenBrowserPlugin = require('open-browser-webpack-plugin');
+const path = require('path');
+const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const OpenBrowserPlugin = require('open-browser-webpack-plugin');
 
 // var nodeModulesPath = path.resolve(__dirname, 'node_modules')
 // console.log(process.env.NODE_ENV)
@@ -75,4 +75,4 @@ module.exports = {
         inline: true, //实时刷新
         hot: true  // 使用热加载插件 HotModuleReplacementPlugin
     }
-}
+};
